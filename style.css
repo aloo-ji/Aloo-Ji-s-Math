@@ -1,0 +1,161 @@
+nav{
+    background-color:#906bbc;
+    width: 100%;
+    margin: 0px;
+}
+
+nav ul li{
+    display: inline-block;
+    background-image: none;
+}
+
+nav > ul > li > a {
+    color:#f6f6f6;
+    display: block;
+    padding: 35px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 17.5px;
+}
+
+body{
+    background-color: #f6f6f6;
+    margin: 10px;
+}
+
+header{
+    text-align: center;
+}
+
+ul{
+    padding-left: 30px;
+    list-style-type: disc;
+}
+
+ul li{
+    padding-bottom: 5px;
+    /* background-image: url(games.png);
+    background-position: 0 0;
+    background-repeat: no-repeat; */
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    border-width: 0px;
+}
+
+th, td{
+    padding: 20px;
+    text-align: center;
+}
+
+th{
+    font-size: 65px;
+}
+
+td{
+    font-size: 40px;
+}
+
+p{
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1{
+    color: #c9aced;
+    font-size: xx-large;
+    font-family: 'Ruwudu';
+    text-align: center;
+}
+
+h2{
+    color: #4e1a8e;
+    font-family: 'Merriweather';
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.align_center{
+    align-self: center;
+}
+
+#hero {
+    background-image:url("https://epe.brightspotcdn.com/dims4/default/3cc928f/2147483647/strip/true/crop/7063x4793+52+0/resize/840x570!/quality/90/?url=https%3A%2F%2Fepe-brightspot.s3.amazonaws.com%2F86%2F17%2F66d9352e44a493f840d235045462%2Frand-curriculum-11152022-1337891325-01.jpg"); /* The image used */ 
+    background-color: #cccccc; /* Used if the image is unavailable */       
+    height: 500px; /* You must set a specified height */ 
+    background-position: center; /* Center the image */ 
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the
+ background-size: 
+ entire container */
+}
+
+#hero-text{
+    font-size: 90px; /* Change font size to make it bigger */
+    height: 350px; /* Set the height this is more for the background*/
+    background-color: rgba(0,0,0,0.5); /* Use a semi-transparent black background 
+to make sure we can see the text */
+    margin: 0px; /* remove extra space around image */
+    padding-top:150px; /* We want the text to be in the middle so we add some 
+space at the top */
+    width:100%;
+}
+
+.center{
+    text-align: center;
+}
+
+.table_center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.no_underline{
+    text-decoration: none;
+}
+
+.width-100{
+    float: right;
+    width: 95%
+}
+.width-75{
+    float: right;
+    width: 60%
+}
+
+.width-25{
+    float: left;
+    width: 40%;
+}
+
+.width-33{
+    float:left;
+    width: 33%
+}
+
+.width-34{
+    float:left;
+    width: 34%
+}
+
+.tableNoBorder
+{
+    border-style:hidden;
+    
+}
+
+.tableColumnNoBorder
+{
+    border-style:hidden;
+    font-size: 15px;
+}
